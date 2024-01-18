@@ -8,7 +8,7 @@ function RefTutorial() {
     console.log(inputRef.current.value);
     // focus = when click on button i can start typing
     inputRef.current.focus();
-    // to clean the input
+    // to clean the input value
     inputRef.current.value = "";
   };
   return (
